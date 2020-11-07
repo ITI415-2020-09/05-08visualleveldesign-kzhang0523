@@ -18,7 +18,7 @@ public class PickingUp : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Fruit Count: " + count.ToString();
-        if (count >= 12)
+        if (count >= 18)
         {
 
             winTextObject.SetActive(true);
